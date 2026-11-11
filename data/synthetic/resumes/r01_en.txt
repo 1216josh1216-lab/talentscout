@@ -1,0 +1,16 @@
+Taylor Okafor
+Female | Age: 32 | taylor.okafor@example.com | +1 555-0110
+Photo: taylor_portrait.jpg
+
+EDUCATION
+Massachusetts Institute of Technology
+B.S. in Economics | Sep 2021 – Jun 2025
+
+EXPERIENCE
+Analyst Intern, Contoso Logistics (fictional)    Jun 2024 – Aug 2024
+- Automated the weekly sales report with Python.
+- Wrote SQL queries against the orders database.
+- Presented findings to a team of five.
+
+SKILLS
+Python, SQL, Docker, PyTorch, Excel

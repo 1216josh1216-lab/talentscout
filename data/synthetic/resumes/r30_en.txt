@@ -1,0 +1,18 @@
+Curriculum Vitae
+Name: Riley Carter
+Gender: Female
+Age: 21
+Email: riley.carter@example.com
+
+EDUCATION
+Lakeside State University
+B.S. in Information Systems | Sep 2021 – Jun 2025
+
+EXPERIENCE
+Analyst Intern, Northwind Analytics (fictional)    Jun 2024 – Aug 2024
+- Wrote SQL queries against the orders database.
+- Presented findings to a team of five.
+
+SKILLS
+SQL, Excel, Tableau, Git, PowerPoint
+No formal training, but used Python daily for coursework.

@@ -1,0 +1,15 @@
+Rowan Brooks
+Female | Age: 27 | rowan.brooks@example.com | +1 555-0137
+
+EDUCATION
+University of Michigan
+B.S. in Economics, 2022 - 2026
+
+EXPERIENCE
+Analyst Intern, Fabrikam Retail (fictional)    Jun 2025 – Aug 2025
+- Prepared slide decks for the regional team.
+- Reduced manual steps in a monthly report.
+
+SKILLS
+R, Docker, PyTorch, Excel
+No experience with Python or SQL yet, but eager to learn.

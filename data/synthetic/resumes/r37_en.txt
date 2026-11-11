@@ -1,0 +1,16 @@
+Morgan Larsen
+Male | Age: 26 | morgan.larsen@example.com | +1 555-0146
+Photo: morgan_portrait.jpg
+
+EDUCATION
+Stanford University
+B.S. in Computer Science | 09/21 - 06/25
+
+EXPERIENCE
+Analyst Intern, Contoso Logistics (fictional)    Jun 2024 – Aug 2024
+- Automated the weekly sales report with Python.
+- Wrote SQL queries against the orders database.
+- Documented the process for new joiners.
+
+SKILLS
+Python, SQL, R, Git, PyTorch, Excel

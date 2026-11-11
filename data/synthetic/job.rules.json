@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "name": "Evaluation: graduate data analyst (2025-2026)",
+  "weights": {
+    "mustHave": 40,
+    "niceToHave": 25,
+    "school": 20,
+    "graduation": 15
+  },
+  "mustHave": [
+    {
+      "term": "Python",
+      "aliases": []
+    },
+    {
+      "term": "SQL",
+      "aliases": [
+        "MySQL",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "niceToHave": [
+    {
+      "term": "Machine Learning",
+      "aliases": [
+        "机器学习"
+      ]
+    },
+    {
+      "term": "PyTorch",
+      "aliases": []
+    },
+    {
+      "term": "Java",
+      "aliases": []
+    },
+    {
+      "term": "Docker",
+      "aliases": [
+        "容器化"
+      ]
+    }
+  ],
+  "schoolTiers": [
+    {
+      "id": "tier-a",
+      "label": "Tier A (example)",
+      "score": 1,
+      "schools": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "aliases": [
+            "MIT",
+            "麻省理工学院"
+          ]
+        },
+        {
+          "name": "Stanford University",
+          "aliases": [
+            "斯坦福大学"
+          ]
+        },
+        {
+          "name": "University of Oxford",
+          "aliases": [
+            "Oxford University",
+            "牛津大学"
+          ]
+        },
+        {
+          "name": "Tsinghua University",
+          "aliases": [
+            "清华大学"
+          ]
+        },
+        {
+          "name": "Peking University",
+          "aliases": [
+            "北京大学"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tier-b",
+      "label": "Tier B (example)",
+      "score": 0.6,
+      "schools": [
+        {
+          "name": "Zhejiang University",
+          "aliases": [
+            "浙江大学"
+          ]
+        },
+        {
+          "name": "Fudan University",
+          "aliases": [
+            "复旦大学"
+          ]
+        },
+        {
+          "name": "University of Michigan",
+          "aliases": [
+            "密歇根大学"
+          ]
+        },
+        {
+          "name": "University of Toronto",
+          "aliases": [
+            "多伦多大学"
+          ]
+        },
+        {
+          "name": "National University of Singapore",
+          "aliases": [
+            "NUS",
+            "新加坡国立大学"
+          ]
+        }
+      ]
+    }
+  ],
+  "graduation": {
+    "enabled": true,
+    "from": 2025,
+    "to": 2026,
+    "mode": "filter"
+  }
+}

@@ -1,0 +1,17 @@
+Jordan Larsen
+jordan.larsen@example.com | +1 555-0125
+
+EDUCATION
+Lakeside State University
+B.S. in Computer Science. Expected graduation: May 2026
+
+EXPERIENCE
+Analyst Intern, Northwind Analytics (fictional)    Jun 2025 – Aug 2025
+- Maintained a MySQL database of customer feedback.
+- Documented the process for new joiners.
+
+SKILLS
+MySQL, Git, Docker, Excel
+
+Sincerely,
+Jordan Larsen

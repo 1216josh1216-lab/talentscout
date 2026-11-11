@@ -1,0 +1,16 @@
+Quinn Foster
+quinn.foster@example.com | +1 555-0143
+Date of Birth: May 21, 1993
+
+EDUCATION
+Massachusetts Institute of Technology
+B.S. in Statistics | Sep 2021 – Jun 2025
+
+EXPERIENCE
+Analyst Intern, Fabrikam Retail (fictional)    Jun 2024 – Aug 2024
+- Automated the weekly sales report with Python.
+- Stored event logs in MongoDB.
+- Reduced manual steps in a monthly report.
+
+SKILLS
+Python, NoSQL (MongoDB), R, PowerPoint, Docker, JavaScript, Excel

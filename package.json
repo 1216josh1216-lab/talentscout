@@ -1,0 +1,25 @@
+{
+  "name": "talentscout",
+  "version": "2.0.0",
+  "description": "Privacy-first, explainable resume screening that runs entirely in the browser.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "score": "node scripts/score.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "samples": "node scripts/make-samples.mjs",
+    "dataset": "node scripts/generate-dataset.mjs",
+    "evaluate": "node scripts/evaluate.mjs",
+    "ablation": "node scripts/ablation.mjs"
+  },
+  "devDependencies": {
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

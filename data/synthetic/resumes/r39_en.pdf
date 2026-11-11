@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /FontDescriptor /FontName /STSong-Light /Flags 6 /FontBBox [-25 -254 1000 880] /ItalicAngle 0 /Ascent 880 /Descent -120 /CapHeight 880 /StemV 93 >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /CIDFontType0 /BaseFont /STSong-Light /CIDSystemInfo << /Registry (Adobe) /Ordering (GB1) /Supplement 4 >> /FontDescriptor 4 0 R /DW 1000 >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type0 /BaseFont /STSong-Light /Encoding /UniGB-UCS2-H /DescendantFonts [5 0 R] >>
+endobj
+7 0 obj
+<< /Length 892 >>
+stream
+BT
+15 TL
+50 790 Td
+/F1 11 Tf (Harper Foster) Tj T*
+/F1 11 Tf (harper.foster@example.com | +1 555-0148) Tj T*
+/F1 11 Tf (Date of Birth: November 26, 1986) Tj T*
+T*
+/F1 11 Tf (EDUCATION) Tj T*
+/F1 11 Tf (Lakeside State University) Tj T*
+/F1 11 Tf (B.S. in Statistics, 2022-26) Tj T*
+T*
+/F1 11 Tf (EXPERIENCE) Tj T*
+/F2 11 Tf <0041006e0061006c00790073007400200049006e007400650072006e002c00200043006f006e0074006f0073006f0020004c006f00670069007300740069006300730020002800660069006300740069006f006e0061006c00290020002000200020004a0075006e0020003200300032003500202013002000410075006700200032003000320035> Tj T*
+/F1 11 Tf (- Automated the weekly sales report with Python.) Tj T*
+/F1 11 Tf (- Maintained a MySQL database of customer feedback.) Tj T*
+/F1 11 Tf (- Presented findings to a team of five.) Tj T*
+T*
+/F1 11 Tf (SKILLS) Tj T*
+/F1 11 Tf (Python, MySQL, Excel, R, PyTorch, JavaScript) Tj T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000000384 00000 n 
+0000000564 00000 n 
+0000000686 00000 n 
+0000001629 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+1765
+%%EOF

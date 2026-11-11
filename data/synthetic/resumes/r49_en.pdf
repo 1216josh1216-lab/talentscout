@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /FontDescriptor /FontName /STSong-Light /Flags 6 /FontBBox [-25 -254 1000 880] /ItalicAngle 0 /Ascent 880 /Descent -120 /CapHeight 880 /StemV 93 >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /CIDFontType0 /BaseFont /STSong-Light /CIDSystemInfo << /Registry (Adobe) /Ordering (GB1) /Supplement 4 >> /FontDescriptor 4 0 R /DW 1000 >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type0 /BaseFont /STSong-Light /Encoding /UniGB-UCS2-H /DescendantFonts [5 0 R] >>
+endobj
+7 0 obj
+<< /Length 1009 >>
+stream
+BT
+15 TL
+50 790 Td
+/F1 11 Tf (SKILLS) Tj T*
+/F1 11 Tf (Python, SQL, Excel, PowerPoint, Docker) Tj T*
+/F1 11 Tf (Riley Carter) Tj T*
+/F1 11 Tf (Male | Age: 24 | riley.carter@example.com | +1 555-0158) Tj T*
+/F1 11 Tf (Photo: riley_portrait.jpg) Tj T*
+/F1 11 Tf (EDUCATION) Tj T*
+/F1 11 Tf (Massachusetts Institute of Technology) Tj T*
+/F2 11 Tf <0042002e0053002e00200069006e002000450063006f006e006f006d0069006300730020007c002000530065007000200032003000320032002020130020004a0075006e00200032003000320036> Tj T*
+/F1 11 Tf (EXPERIENCE) Tj T*
+/F2 11 Tf <0041006e0061006c00790073007400200049006e007400650072006e002c0020005400610069006c007300700069006e0020004c0061006200730020002800660069006300740069006f006e0061006c00290020002000200020004a0075006e0020003200300032003500202013002000410075006700200032003000320035> Tj T*
+/F1 11 Tf (- Automated the weekly sales report with Python.) Tj T*
+/F1 11 Tf (- Wrote SQL queries against the orders database.) Tj T*
+/F1 11 Tf (- Documented the process for new joiners.) Tj T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000000384 00000 n 
+0000000564 00000 n 
+0000000686 00000 n 
+0000001747 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+1883
+%%EOF

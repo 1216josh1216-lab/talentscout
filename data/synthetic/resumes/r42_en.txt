@@ -1,0 +1,18 @@
+Quinn Foster
+quinn.foster@example.com | +1 555-0151
+
+SUMMARY
+A 38-year-old male graduate with a strong interest in data.
+
+EDUCATION
+University of Michigan
+B.S. in Computer Science | Sep 21 - Jun 25
+
+EXPERIENCE
+Analyst Intern, Fabrikam Retail (fictional)    Jun 2024 – Aug 2024
+- Automated the weekly sales report with Python.
+- Wrote SQL queries against the orders database.
+- Documented the process for new joiners.
+
+SKILLS
+Python, SQL, Excel, R, PowerPoint, PyTorch

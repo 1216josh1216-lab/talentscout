@@ -1,0 +1,17 @@
+Avery Example
+Male | Age: 24 | avery.example@example.com | +1 555-0100
+
+EDUCATION
+Massachusetts Institute of Technology — B.S. in Computer Science
+Sep 2021 – Jun 2025 | GPA 3.8/4.0
+
+EXPERIENCE
+Data Science Intern, Northwind Analytics (fictional company)    Jun 2024 – Aug 2024
+- Built churn models in Python with scikit-learn and evaluated them on a held-out set.
+- Wrote SQL pipelines for weekly reporting.
+
+PROJECTS
+Course project: machine learning for text classification (PyTorch).
+
+SKILLS
+Python, SQL, PyTorch, Git, JavaScript

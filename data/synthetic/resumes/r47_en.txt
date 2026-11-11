@@ -1,0 +1,5 @@
+Avery Foster
+Female | Age: 39 | avery.foster@example.com | +1 555-0156
+B.S. in Information Systems, Stanford University, 2021 - 2025
+Skilled in Python, SQL, Excel, R, Git, PowerPoint, JavaScript; built dashboards for a student society.
+Intern at Northwind Analytics (fictional), summer 2024.

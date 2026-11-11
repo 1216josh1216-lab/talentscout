@@ -1,0 +1,15 @@
+Morgan Novak
+Female | Age: 21 | morgan.novak@example.com | +1 555-0152
+Photo: morgan_portrait.jpg
+
+EDUCATION
+Massachusetts Institute of Technology
+B.S. in Information Systems | Sep 2021 – Jun 2025
+
+EXPERIENCE
+Analyst Intern, Wingtip Media (fictional)    Jun 2024 – Aug 2024
+- Wrote SQL queries against the orders database.
+- Documented the process for new joiners.
+
+SKILLS
+pandas, NumPy, Jupyter, SQL, Tableau, R, Git, PowerPoint, Docker, PyTorch, Excel

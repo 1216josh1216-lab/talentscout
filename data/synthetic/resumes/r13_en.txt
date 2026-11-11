@@ -1,0 +1,18 @@
+Curriculum Vitae
+Name: Riley Carter
+Gender: Female
+Age: 22
+Email: riley.carter@example.com
+Photo: riley_portrait.jpg
+
+EDUCATION
+University of Michigan
+B.S. in Statistics | Sep 2021 – Jun 2025
+
+EXPERIENCE
+Analyst Intern, Tailspin Labs (fictional)    Jun 2024 – Aug 2024
+- Wrote SQL queries against the orders database.
+- Reduced manual steps in a monthly report.
+
+SKILLS
+SQL, Excel, Tableau, Git, JavaScript

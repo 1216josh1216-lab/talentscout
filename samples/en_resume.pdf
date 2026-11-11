@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /FontDescriptor /FontName /STSong-Light /Flags 6 /FontBBox [-25 -254 1000 880] /ItalicAngle 0 /Ascent 880 /Descent -120 /CapHeight 880 /StemV 93 >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /CIDFontType0 /BaseFont /STSong-Light /CIDSystemInfo << /Registry (Adobe) /Ordering (GB1) /Supplement 4 >> /FontDescriptor 4 0 R /DW 1000 >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type0 /BaseFont /STSong-Light /Encoding /UniGB-UCS2-H /DescendantFonts [5 0 R] >>
+endobj
+7 0 obj
+<< /Length 1337 >>
+stream
+BT
+15 TL
+50 790 Td
+/F1 11 Tf (Avery Example) Tj T*
+/F1 11 Tf (Male | Age: 24 | avery.example@example.com | +1 555-0100) Tj T*
+T*
+/F1 11 Tf (EDUCATION) Tj T*
+/F2 11 Tf <004d00610073007300610063006800750073006500740074007300200049006e00730074006900740075007400650020006f006600200054006500630068006e006f006c006f006700790020201400200042002e0053002e00200069006e00200043006f006d0070007500740065007200200053006300690065006e00630065> Tj T*
+/F2 11 Tf <00530065007000200032003000320031002020130020004a0075006e002000320030003200350020007c002000470050004100200033002e0038002f0034002e0030> Tj T*
+T*
+/F1 11 Tf (EXPERIENCE) Tj T*
+/F2 11 Tf <004400610074006100200053006300690065006e0063006500200049006e007400650072006e002c0020004e006f00720074006800770069006e006400200041006e0061006c007900740069006300730020002800660069006300740069006f006e0061006c00200063006f006d00700061006e007900290020002000200020004a0075006e0020003200300032003400202013002000410075006700200032003000320034> Tj T*
+/F1 11 Tf (- Built churn models in Python with scikit-learn and evaluated them on a held-out set.) Tj T*
+/F1 11 Tf (- Wrote SQL pipelines for weekly reporting.) Tj T*
+T*
+/F1 11 Tf (PROJECTS) Tj T*
+/F1 11 Tf (Course project: machine learning for text classification \(PyTorch\).) Tj T*
+T*
+/F1 11 Tf (SKILLS) Tj T*
+/F1 11 Tf (Python, SQL, PyTorch, Git, JavaScript) Tj T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000212 00000 n 
+0000000384 00000 n 
+0000000564 00000 n 
+0000000686 00000 n 
+0000002075 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+2211
+%%EOF

@@ -1,0 +1,17 @@
+Quinn Foster
+quinn.foster@example.com | +1 555-0113
+
+SUMMARY
+A 29-year-old male graduate with a strong interest in data.
+
+EDUCATION
+Lakeside State University
+B.S. in Information Systems, 2021 - 2025
+
+EXPERIENCE
+Analyst Intern, Wingtip Media (fictional)    Jun 2024 – Aug 2024
+- Maintained a MySQL database of customer feedback.
+- Presented findings to a team of five.
+
+SKILLS
+Python, MySQL, Excel

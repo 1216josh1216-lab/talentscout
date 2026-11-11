@@ -1,0 +1,16 @@
+Taylor Reyes
+Female | Age: 31 | taylor.reyes@example.com | +1 555-0130
+
+EDUCATION
+Massachusetts Institute of Technology
+B.S. in Economics | Sep 2015 – Jun 2019
+
+EXPERIENCE
+Data Analyst, Fabrikam Retail (fictional)    Jul 2019 – Present
+- Automated the weekly sales report with Python.
+- Wrote SQL queries against the orders database.
+- Presented findings to a team of five.
+- Completed the internal analytics course in 2025 and the advanced course in 2026.
+
+SKILLS
+Python, SQL, R, Excel

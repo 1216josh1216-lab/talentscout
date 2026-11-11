@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The browser itself enforces the privacy claim: this policy forbids any
+       request to another origin, so resume data cannot be sent anywhere. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; style-src 'self'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; form-action 'none'; base-uri 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>TalentScout 2.0 · Explainable resume screening in your browser</title>
+  <meta name="description" content="Open-source, privacy-first resume screening. Rules you can read, scores you can trace, and no resume ever leaves your browser.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p id="boot-warning" class="boot-warning" data-i18n="app.boot">The app did not start. If you opened index.html by double-clicking it, browsers block that. Run "npm start" in the project folder and open the address it prints.</p>
+
+  <header class="top">
+    <div class="wrap top-row">
+      <div class="brand">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span class="brand-name">TalentScout <span class="brand-ver">2.0</span></span>
+      </div>
+      <div class="top-actions">
+        <span class="privacy-pill" data-i18n="app.privacy">Runs locally · nothing is uploaded</span>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" lang="en">English</button>
+          <button type="button" data-lang="zh" lang="zh-Hans">中文</button>
+        </div>
+      </div>
+    </div>
+    <div class="wrap hero">
+      <h1 data-i18n="app.tagline">Explainable resume screening that never leaves your browser.</h1>
+      <p data-i18n="app.sub">Set the rules, drop in resumes, get a ranked list. Every point is traced to a rule and a quote from the resume. No server, no upload, no AI model.</p>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <section class="card rules" aria-labelledby="rules-h">
+      <div class="card-head">
+        <h2 id="rules-h" data-i18n="rules.title">Rules</h2>
+      </div>
+      <div id="rules-editor"></div>
+    </section>
+
+    <div class="work">
+      <section class="card" aria-labelledby="upload-h">
+        <div class="card-head">
+          <h2 id="upload-h" data-i18n="upload.title">Resumes</h2>
+        </div>
+        <div id="upload"></div>
+      </section>
+
+      <section class="card" aria-labelledby="results-h">
+        <div class="card-head">
+          <h2 id="results-h" data-i18n="results.title">Ranked candidates</h2>
+          <div id="results-actions" class="head-actions"></div>
+        </div>
+        <div id="results"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap foot">
+    <p data-i18n="app.footer">Decision support only: the tool ranks, a person decides. Scores reflect the rules you set, not a candidate’s worth. Open source under the MIT license.</p>
+  </footer>
+
+  <dialog id="report" aria-labelledby="report-h"></dialog>
+
+  <script type="module" src="src/ui/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,909 @@
+{
+  "description": "Ground truth for the synthetic dataset. qualified = has_python AND has_sql AND graduation_year within the window.",
+  "window": {
+    "from": 2025,
+    "to": 2026
+  },
+  "resumes": [
+    {
+      "id": "r01",
+      "file": "r01_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Massachusetts Institute of Technology",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r02",
+      "file": "r02_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_pg",
+      "graduation_format": "class_of",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Stanford University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r03",
+      "file": "r03_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "expected",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "University of Michigan",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r04",
+      "file": "r04_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "clear_positive",
+      "how_python_is_written": "skills_only",
+      "how_sql_is_written": "alias_mysql",
+      "graduation_format": "range_year",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": true
+      }
+    },
+    {
+      "id": "r05",
+      "file": "r05_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "graduated",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "University of Toronto",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r06",
+      "file": "r06_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "lone",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "National University of Singapore",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r07",
+      "file": "r07_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "dot",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Zhejiang University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r08",
+      "file": "r08_zh.pdf",
+      "lang": "zh",
+      "format": "pdf",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_mysql",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Tsinghua University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r09",
+      "file": "r09_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "nianyue",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Fudan University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r10",
+      "file": "r10_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "clear_positive",
+      "how_python_is_written": "skills_only",
+      "how_sql_is_written": "plain",
+      "graduation_format": "biye",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": null,
+        "qualified": true
+      }
+    },
+    {
+      "id": "r11",
+      "file": "r11_zh.pdf",
+      "lang": "zh",
+      "format": "pdf",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "zhi",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Peking University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r12",
+      "file": "r12_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "clear_positive",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_pg",
+      "graduation_format": "slash",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": null,
+        "qualified": true
+      }
+    },
+    {
+      "id": "r13",
+      "file": "r13_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "missing_skill",
+      "how_python_is_written": "none",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "University of Michigan",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r14",
+      "file": "r14_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "missing_skill",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "none",
+      "graduation_format": "class_of",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "Stanford University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r15",
+      "file": "r15_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "missing_skill",
+      "how_python_is_written": "none",
+      "how_sql_is_written": "none",
+      "graduation_format": "range_year",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": false,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r16",
+      "file": "r16_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "missing_skill",
+      "how_python_is_written": "none",
+      "how_sql_is_written": "alias_mysql",
+      "graduation_format": "expected",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r17",
+      "file": "r17_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "missing_skill",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "none",
+      "graduation_format": "dot",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2025,
+        "school": "Zhejiang University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r18",
+      "file": "r18_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "missing_skill",
+      "how_python_is_written": "none",
+      "how_sql_is_written": "plain",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Fudan University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r19",
+      "file": "r19_zh.pdf",
+      "lang": "zh",
+      "format": "pdf",
+      "category": "missing_skill",
+      "how_python_is_written": "none",
+      "how_sql_is_written": "none",
+      "graduation_format": "nianyue",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": false,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r20",
+      "file": "r20_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "missing_skill",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "none",
+      "graduation_format": "biye",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "Peking University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r21",
+      "file": "r21_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2019,
+        "school": "Massachusetts Institute of Technology",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r22",
+      "file": "r22_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "graduated",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2022,
+        "school": "University of Toronto",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r23",
+      "file": "r23_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_pg",
+      "graduation_format": "expected",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2028,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r24",
+      "file": "r24_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "nianyue",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2012,
+        "school": "Fudan University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r25",
+      "file": "r25_zh.pdf",
+      "lang": "zh",
+      "format": "pdf",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2023,
+        "school": "Tsinghua University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r26",
+      "file": "r26_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_mysql",
+      "graduation_format": "dot",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2021,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r27",
+      "file": "r27_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "outside_window",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "class_of",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2024,
+        "school": "University of Michigan",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r28",
+      "file": "r28_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "negation",
+      "how_python_is_written": "negated",
+      "how_sql_is_written": "negated",
+      "graduation_format": "range_year",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "University of Michigan",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r29",
+      "file": "r29_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "negation",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "negated",
+      "graduation_format": "class_of",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2025,
+        "school": "Stanford University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r30",
+      "file": "r30_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "negation",
+      "how_python_is_written": "affirm_near_neg",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": true
+      }
+    },
+    {
+      "id": "r31",
+      "file": "r31_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "negation",
+      "how_python_is_written": "leadin",
+      "how_sql_is_written": "plain",
+      "graduation_format": "expected",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "University of Toronto",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r32",
+      "file": "r32_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "negation",
+      "how_python_is_written": "negated",
+      "how_sql_is_written": "plain",
+      "graduation_format": "dot",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Zhejiang University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r33",
+      "file": "r33_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "negation",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "negated",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "Peking University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r34",
+      "file": "r34_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "lookalike",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "nosql",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2025,
+        "school": "Massachusetts Institute of Technology",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r35",
+      "file": "r35_zh.pdf",
+      "lang": "zh",
+      "format": "pdf",
+      "category": "lookalike",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "nosql",
+      "graduation_format": "nianyue",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "Tsinghua University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r36",
+      "file": "r36_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "lookalike",
+      "how_python_is_written": "hobby",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_year",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r37",
+      "file": "r37_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "two_digit",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Stanford University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r38",
+      "file": "r38_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "two_digit",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Fudan University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r39",
+      "file": "r39_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "alias_mysql",
+      "graduation_format": "abbr",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": null,
+        "qualified": true
+      }
+    },
+    {
+      "id": "r40",
+      "file": "r40_en.docx",
+      "lang": "en",
+      "format": "docx",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "present",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "University of Toronto",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r41",
+      "file": "r41_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "numeral",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Zhejiang University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r42",
+      "file": "r42_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "date_format",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "mon_ambig",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "University of Michigan",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r43",
+      "file": "r43_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "implied_or_planned",
+      "how_python_is_written": "implied",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Massachusetts Institute of Technology",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r44",
+      "file": "r44_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "implied_or_planned",
+      "how_python_is_written": "implied",
+      "how_sql_is_written": "plain",
+      "graduation_format": "dot",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Peking University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r45",
+      "file": "r45_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "implied_or_planned",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "planned",
+      "graduation_format": "class_of",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": false,
+        "graduation_year": 2026,
+        "school": "Stanford University",
+        "qualified": false
+      }
+    },
+    {
+      "id": "r46",
+      "file": "r46_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "implied_or_planned",
+      "how_python_is_written": "planned",
+      "how_sql_is_written": "plain",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": false,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": null,
+        "qualified": false
+      }
+    },
+    {
+      "id": "r47",
+      "file": "r47_en.txt",
+      "lang": "en",
+      "format": "txt",
+      "category": "layout",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_year",
+      "layout": "noheadings",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2025,
+        "school": "Stanford University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r48",
+      "file": "r48_zh.txt",
+      "lang": "zh",
+      "format": "txt",
+      "category": "layout",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "dot",
+      "layout": "noheadings",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Tsinghua University",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r49",
+      "file": "r49_en.pdf",
+      "lang": "en",
+      "format": "pdf",
+      "category": "layout",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "range_mon",
+      "layout": "sidebar",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Massachusetts Institute of Technology",
+        "qualified": true
+      }
+    },
+    {
+      "id": "r50",
+      "file": "r50_zh.docx",
+      "lang": "zh",
+      "format": "docx",
+      "category": "layout",
+      "how_python_is_written": "plain",
+      "how_sql_is_written": "plain",
+      "graduation_format": "jie",
+      "layout": "standard",
+      "truth": {
+        "has_python": true,
+        "has_sql": true,
+        "graduation_year": 2026,
+        "school": "Zhejiang University",
+        "qualified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Rowan Bennett
+rowan.bennett@example.com | +1 555-0136
+
+SUMMARY
+A 40-year-old female graduate with a strong interest in data.
+
+EDUCATION
+University of Michigan
+B.S. in Statistics, Class of 2024
+
+EXPERIENCE
+Analyst Intern, Fabrikam Retail (fictional)    Jun 2023 – Aug 2023
+- Automated the weekly sales report with Python.
+- Wrote SQL queries against the orders database.
+- Reduced manual steps in a monthly report.
+
+SKILLS
+Python, SQL, Excel, Tableau

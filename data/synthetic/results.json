@@ -1,0 +1,977 @@
+{
+  "engine": {
+    "tp": 20,
+    "fp": 3,
+    "fn": 6,
+    "tn": 21,
+    "precision": 0.8695652173913043,
+    "recall": 0.7692307692307693,
+    "f1": 0.8163265306122449,
+    "accuracy": 0.82,
+    "precisionCI": [
+      0.678721020269818,
+      0.9546242348565529
+    ],
+    "recallCI": [
+      0.5794807424804321,
+      0.8896630031632332
+    ]
+  },
+  "baseline": {
+    "tp": 19,
+    "fp": 14,
+    "fn": 7,
+    "tn": 10,
+    "precision": 0.5757575757575758,
+    "recall": 0.7307692307692307,
+    "f1": 0.6440677966101696,
+    "accuracy": 0.58,
+    "precisionCI": [
+      0.4080697369146003,
+      0.727646410049701
+    ],
+    "recallCI": [
+      0.5391659658023868,
+      0.8629572447493261
+    ]
+  },
+  "byLanguage": {
+    "en": {
+      "n": 28,
+      "engine": {
+        "tp": 11,
+        "fp": 2,
+        "fn": 4,
+        "tn": 11,
+        "precision": 0.8461538461538461,
+        "recall": 0.7333333333333333,
+        "f1": 0.7857142857142856,
+        "accuracy": 0.7857142857142857,
+        "precisionCI": [
+          0.5776482949136899,
+          0.9567427368172621
+        ],
+        "recallCI": [
+          0.48049110342313245,
+          0.8910272389681717
+        ]
+      },
+      "baseline": {
+        "tp": 11,
+        "fp": 8,
+        "fn": 4,
+        "tn": 5,
+        "precision": 0.5789473684210527,
+        "recall": 0.7333333333333333,
+        "f1": 0.6470588235294117,
+        "accuracy": 0.5714285714285714,
+        "precisionCI": [
+          0.3627555146516011,
+          0.7685837960796963
+        ],
+        "recallCI": [
+          0.48049110342313245,
+          0.8910272389681717
+        ]
+      }
+    },
+    "zh": {
+      "n": 22,
+      "engine": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 2,
+        "tn": 10,
+        "precision": 0.9,
+        "recall": 0.8181818181818182,
+        "f1": 0.8571428571428572,
+        "accuracy": 0.8636363636363636,
+        "precisionCI": [
+          0.5958436145024278,
+          0.9821242504842789
+        ],
+        "recallCI": [
+          0.5230138624217553,
+          0.9486333993289994
+        ]
+      },
+      "baseline": {
+        "tp": 8,
+        "fp": 6,
+        "fn": 3,
+        "tn": 5,
+        "precision": 0.5714285714285714,
+        "recall": 0.7272727272727273,
+        "f1": 0.64,
+        "accuracy": 0.5909090909090909,
+        "precisionCI": [
+          0.3259026690286935,
+          0.7861949006959947
+        ],
+        "recallCI": [
+          0.4343497069897538,
+          0.9025411942607853
+        ]
+      }
+    }
+  },
+  "graduationYearCorrect": 47,
+  "schoolCorrect": 50,
+  "n": 50,
+  "rows": [
+    {
+      "id": "r01",
+      "file": "r01_en.txt",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 87.5,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Massachusetts Institute of Technology",
+      "schoolFound": "Massachusetts Institute of Technology",
+      "notes": "python: plain; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r02",
+      "file": "r02_en.pdf",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 81.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: alias_pg; date: class_of"
+    },
+    {
+      "id": "r03",
+      "file": "r03_en.docx",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 73.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "University of Michigan",
+      "schoolFound": "University of Michigan",
+      "notes": "python: plain; sql: plain; date: expected"
+    },
+    {
+      "id": "r04",
+      "file": "r04_en.txt",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: skills_only; sql: alias_mysql; date: range_year"
+    },
+    {
+      "id": "r05",
+      "file": "r05_en.pdf",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 73.3,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "University of Toronto",
+      "schoolFound": "University of Toronto",
+      "notes": "python: plain; sql: plain; date: graduated"
+    },
+    {
+      "id": "r06",
+      "file": "r06_en.docx",
+      "lang": "en",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 67,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "National University of Singapore",
+      "schoolFound": "National University of Singapore",
+      "notes": "python: plain; sql: plain; date: lone"
+    },
+    {
+      "id": "r07",
+      "file": "r07_zh.txt",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 67,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Zhejiang University",
+      "schoolFound": "Zhejiang University",
+      "notes": "python: plain; sql: plain; date: dot"
+    },
+    {
+      "id": "r08",
+      "file": "r08_zh.pdf",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 81.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Tsinghua University",
+      "schoolFound": "Tsinghua University",
+      "notes": "python: plain; sql: alias_mysql; date: jie"
+    },
+    {
+      "id": "r09",
+      "file": "r09_zh.docx",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 67,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Fudan University",
+      "schoolFound": "Fudan University",
+      "notes": "python: plain; sql: plain; date: nianyue"
+    },
+    {
+      "id": "r10",
+      "file": "r10_zh.txt",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: skills_only; sql: plain; date: biye"
+    },
+    {
+      "id": "r11",
+      "file": "r11_zh.pdf",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 81.3,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Peking University",
+      "schoolFound": "Peking University",
+      "notes": "python: plain; sql: plain; date: zhi"
+    },
+    {
+      "id": "r12",
+      "file": "r12_zh.docx",
+      "lang": "zh",
+      "category": "clear_positive",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: plain; sql: alias_pg; date: slash"
+    },
+    {
+      "id": "r13",
+      "file": "r13_en.txt",
+      "lang": "en",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 47,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "University of Michigan",
+      "schoolFound": "University of Michigan",
+      "notes": "python: none; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r14",
+      "file": "r14_en.docx",
+      "lang": "en",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 55,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: none; date: class_of"
+    },
+    {
+      "id": "r15",
+      "file": "r15_en.pdf",
+      "lang": "en",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 27.5,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: none; sql: none; date: range_year"
+    },
+    {
+      "id": "r16",
+      "file": "r16_en.txt",
+      "lang": "en",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 41.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: none; sql: alias_mysql; date: expected"
+    },
+    {
+      "id": "r17",
+      "file": "r17_zh.txt",
+      "lang": "zh",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 53.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Zhejiang University",
+      "schoolFound": "Zhejiang University",
+      "notes": "python: plain; sql: none; date: dot"
+    },
+    {
+      "id": "r18",
+      "file": "r18_zh.docx",
+      "lang": "zh",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 53.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Fudan University",
+      "schoolFound": "Fudan University",
+      "notes": "python: none; sql: plain; date: jie"
+    },
+    {
+      "id": "r19",
+      "file": "r19_zh.pdf",
+      "lang": "zh",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 21.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: none; sql: none; date: nianyue"
+    },
+    {
+      "id": "r20",
+      "file": "r20_zh.txt",
+      "lang": "zh",
+      "category": "missing_skill",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 61.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Peking University",
+      "schoolFound": "Peking University",
+      "notes": "python: plain; sql: none; date: biye"
+    },
+    {
+      "id": "r21",
+      "file": "r21_en.txt",
+      "lang": "en",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 60,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2019,
+      "gradFound": 2019,
+      "schoolTruth": "Massachusetts Institute of Technology",
+      "schoolFound": "Massachusetts Institute of Technology",
+      "notes": "python: plain; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r22",
+      "file": "r22_en.pdf",
+      "lang": "en",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 52,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2022,
+      "gradFound": 2022,
+      "schoolTruth": "University of Toronto",
+      "schoolFound": "University of Toronto",
+      "notes": "python: plain; sql: plain; date: graduated"
+    },
+    {
+      "id": "r23",
+      "file": "r23_en.docx",
+      "lang": "en",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 40,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2028,
+      "gradFound": 2028,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: plain; sql: alias_pg; date: expected"
+    },
+    {
+      "id": "r24",
+      "file": "r24_zh.txt",
+      "lang": "zh",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 52,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2012,
+      "gradFound": 2012,
+      "schoolTruth": "Fudan University",
+      "schoolFound": "Fudan University",
+      "notes": "python: plain; sql: plain; date: nianyue"
+    },
+    {
+      "id": "r25",
+      "file": "r25_zh.pdf",
+      "lang": "zh",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 66.3,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2023,
+      "gradFound": 2023,
+      "schoolTruth": "Tsinghua University",
+      "schoolFound": "Tsinghua University",
+      "notes": "python: plain; sql: plain; date: jie"
+    },
+    {
+      "id": "r26",
+      "file": "r26_zh.docx",
+      "lang": "zh",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 46.3,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2021,
+      "gradFound": 2021,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: plain; sql: alias_mysql; date: dot"
+    },
+    {
+      "id": "r27",
+      "file": "r27_en.txt",
+      "lang": "en",
+      "category": "outside_window",
+      "truth": false,
+      "engine": false,
+      "baseline": false,
+      "score": 52,
+      "flags": [
+        "outside_window"
+      ],
+      "gradTruth": 2024,
+      "gradFound": 2024,
+      "schoolTruth": "University of Michigan",
+      "schoolFound": "University of Michigan",
+      "notes": "python: plain; sql: plain; date: class_of"
+    },
+    {
+      "id": "r28",
+      "file": "r28_en.txt",
+      "lang": "en",
+      "category": "negation",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 39.5,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "University of Michigan",
+      "schoolFound": "University of Michigan",
+      "notes": "python: negated; sql: negated; date: range_year"
+    },
+    {
+      "id": "r29",
+      "file": "r29_en.docx",
+      "lang": "en",
+      "category": "negation",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 55,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: negated; date: class_of"
+    },
+    {
+      "id": "r30",
+      "file": "r30_en.txt",
+      "lang": "en",
+      "category": "negation",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: affirm_near_neg; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r31",
+      "file": "r31_en.pdf",
+      "lang": "en",
+      "category": "negation",
+      "truth": true,
+      "engine": false,
+      "baseline": true,
+      "score": 47,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "University of Toronto",
+      "schoolFound": "University of Toronto",
+      "notes": "python: leadin; sql: plain; date: expected"
+    },
+    {
+      "id": "r32",
+      "file": "r32_zh.txt",
+      "lang": "zh",
+      "category": "negation",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 53.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Zhejiang University",
+      "schoolFound": "Zhejiang University",
+      "notes": "python: negated; sql: plain; date: dot"
+    },
+    {
+      "id": "r33",
+      "file": "r33_zh.docx",
+      "lang": "zh",
+      "category": "negation",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 61.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Peking University",
+      "schoolFound": "Peking University",
+      "notes": "python: plain; sql: negated; date: jie"
+    },
+    {
+      "id": "r34",
+      "file": "r34_en.txt",
+      "lang": "en",
+      "category": "lookalike",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 61.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Massachusetts Institute of Technology",
+      "schoolFound": "Massachusetts Institute of Technology",
+      "notes": "python: plain; sql: nosql; date: range_mon"
+    },
+    {
+      "id": "r35",
+      "file": "r35_zh.pdf",
+      "lang": "zh",
+      "category": "lookalike",
+      "truth": false,
+      "engine": false,
+      "baseline": true,
+      "score": 55,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Tsinghua University",
+      "schoolFound": "Tsinghua University",
+      "notes": "python: plain; sql: nosql; date: nianyue"
+    },
+    {
+      "id": "r36",
+      "file": "r36_en.docx",
+      "lang": "en",
+      "category": "lookalike",
+      "truth": false,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: hobby; sql: plain; date: range_year"
+    },
+    {
+      "id": "r37",
+      "file": "r37_en.txt",
+      "lang": "en",
+      "category": "date_format",
+      "truth": true,
+      "engine": true,
+      "baseline": false,
+      "score": 81.3,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: plain; date: two_digit"
+    },
+    {
+      "id": "r38",
+      "file": "r38_zh.txt",
+      "lang": "zh",
+      "category": "date_format",
+      "truth": true,
+      "engine": true,
+      "baseline": false,
+      "score": 67,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Fudan University",
+      "schoolFound": "Fudan University",
+      "notes": "python: plain; sql: plain; date: two_digit"
+    },
+    {
+      "id": "r39",
+      "file": "r39_en.pdf",
+      "lang": "en",
+      "category": "date_format",
+      "truth": true,
+      "engine": true,
+      "baseline": false,
+      "score": 61.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: plain; sql: alias_mysql; date: abbr"
+    },
+    {
+      "id": "r40",
+      "file": "r40_en.docx",
+      "lang": "en",
+      "category": "date_format",
+      "truth": true,
+      "engine": false,
+      "baseline": true,
+      "score": 52,
+      "flags": [
+        "grad_unknown"
+      ],
+      "gradTruth": 2026,
+      "gradFound": null,
+      "schoolTruth": "University of Toronto",
+      "schoolFound": "University of Toronto",
+      "notes": "python: plain; sql: plain; date: present"
+    },
+    {
+      "id": "r41",
+      "file": "r41_zh.txt",
+      "lang": "zh",
+      "category": "date_format",
+      "truth": true,
+      "engine": false,
+      "baseline": false,
+      "score": 52,
+      "flags": [
+        "grad_unknown"
+      ],
+      "gradTruth": 2025,
+      "gradFound": null,
+      "schoolTruth": "Zhejiang University",
+      "schoolFound": "Zhejiang University",
+      "notes": "python: plain; sql: plain; date: numeral"
+    },
+    {
+      "id": "r42",
+      "file": "r42_en.txt",
+      "lang": "en",
+      "category": "date_format",
+      "truth": true,
+      "engine": false,
+      "baseline": false,
+      "score": 58.3,
+      "flags": [
+        "grad_unknown"
+      ],
+      "gradTruth": 2025,
+      "gradFound": null,
+      "schoolTruth": "University of Michigan",
+      "schoolFound": "University of Michigan",
+      "notes": "python: plain; sql: plain; date: mon_ambig"
+    },
+    {
+      "id": "r43",
+      "file": "r43_en.txt",
+      "lang": "en",
+      "category": "implied_or_planned",
+      "truth": true,
+      "engine": false,
+      "baseline": false,
+      "score": 67.5,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Massachusetts Institute of Technology",
+      "schoolFound": "Massachusetts Institute of Technology",
+      "notes": "python: implied; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r44",
+      "file": "r44_zh.docx",
+      "lang": "zh",
+      "category": "implied_or_planned",
+      "truth": true,
+      "engine": false,
+      "baseline": false,
+      "score": 61.3,
+      "flags": [
+        "missing_must_have"
+      ],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Peking University",
+      "schoolFound": "Peking University",
+      "notes": "python: implied; sql: plain; date: dot"
+    },
+    {
+      "id": "r45",
+      "file": "r45_en.pdf",
+      "lang": "en",
+      "category": "implied_or_planned",
+      "truth": false,
+      "engine": true,
+      "baseline": true,
+      "score": 75,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: planned; date: class_of"
+    },
+    {
+      "id": "r46",
+      "file": "r46_zh.txt",
+      "lang": "zh",
+      "category": "implied_or_planned",
+      "truth": false,
+      "engine": true,
+      "baseline": true,
+      "score": 55,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": null,
+      "schoolFound": null,
+      "notes": "python: planned; sql: plain; date: jie"
+    },
+    {
+      "id": "r47",
+      "file": "r47_en.txt",
+      "lang": "en",
+      "category": "layout",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 75,
+      "flags": [],
+      "gradTruth": 2025,
+      "gradFound": 2025,
+      "schoolTruth": "Stanford University",
+      "schoolFound": "Stanford University",
+      "notes": "python: plain; sql: plain; date: range_year"
+    },
+    {
+      "id": "r48",
+      "file": "r48_zh.txt",
+      "lang": "zh",
+      "category": "layout",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 75,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Tsinghua University",
+      "schoolFound": "Tsinghua University",
+      "notes": "python: plain; sql: plain; date: dot"
+    },
+    {
+      "id": "r49",
+      "file": "r49_en.pdf",
+      "lang": "en",
+      "category": "layout",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 81.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Massachusetts Institute of Technology",
+      "schoolFound": "Massachusetts Institute of Technology",
+      "notes": "python: plain; sql: plain; date: range_mon"
+    },
+    {
+      "id": "r50",
+      "file": "r50_zh.docx",
+      "lang": "zh",
+      "category": "layout",
+      "truth": true,
+      "engine": true,
+      "baseline": true,
+      "score": 73.3,
+      "flags": [],
+      "gradTruth": 2026,
+      "gradFound": 2026,
+      "schoolTruth": "Zhejiang University",
+      "schoolFound": "Zhejiang University",
+      "notes": "python: plain; sql: plain; date: jie"
+    }
+  ]
+}
