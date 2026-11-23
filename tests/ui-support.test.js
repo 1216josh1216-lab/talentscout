@@ -26,10 +26,10 @@ test('i18n: every key used by the UI exists', () => {
 test('csv: BOM, quoting, Chinese headers and one row per candidate', () => {
   const ranked = rankCandidates(SAMPLES.map((s, i) => ({ id: String(i), analysis: analyzeResume(s.text, rules) }))).map((c) => ({ ...c, label: `Candidate ${c.id}` }));
   const en = toCsv(ranked, 'en');
-  assert.ok(en.startsWith('﻿"Rank","Candidate","Score"'));
+  assert.ok(en.startsWith('\uFEFF"Rank","Candidate","Score"'));
   assert.equal(en.trim().split('\r\n').length, SAMPLES.length + 1);
   const zh = toCsv(ranked, 'zh');
-  assert.ok(zh.startsWith('﻿"排名","候选人","得分"'));
+  assert.ok(zh.startsWith('\uFEFF"排名","候选人","得分"'));
   assert.match(zh, /缺少必备项/);
 });
 

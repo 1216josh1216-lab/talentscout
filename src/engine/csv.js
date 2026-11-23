@@ -42,5 +42,5 @@ export function toCsv(ranked, lang = 'en') {
       a.results.map((r) => `[${r.points.toFixed(1)}/${r.maxPoints.toFixed(1)}] ${formatReason(r.reason, L)}`).join(' '),
     ]);
   }
-  return '﻿' + rows.map((r) => r.map(csvCell).join(',')).join('\r\n') + '\r\n';
+  return '\uFEFF' + rows.map((r) => r.map(csvCell).join(',')).join('\r\n') + '\r\n';
 }

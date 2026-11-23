@@ -1,5 +1,5 @@
 // UI strings. English is the source language; Chinese mirrors it key for key
-// (tests/i18n.test.js fails if a key is missing on either side).
+// (tests/ui-support.test.js fails if a key is missing on either side).
 
 export const STRINGS = {
   en: {

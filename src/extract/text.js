@@ -10,7 +10,7 @@ export function normalizeText(raw) {
   return String(raw ?? '')
     .normalize('NFKC')
     .replace(/\r\n?/g, '\n')
-    .replace(/[​-‍﻿]/g, '')
+    .replace(/[\u200B-\u200D\uFEFF]/g, '')
     .replace(/\t/g, '  ')
     .replace(/[ ]+$/gm, '');
 }
