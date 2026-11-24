@@ -195,9 +195,11 @@ Tests use Node's built-in test runner. There are no other dependencies.
 3. Wait for the first deployment, then open `https://<username>.github.io/<repository>/?demo`
    (for this repository: <https://1216josh1216-lab.github.io/talentscout/?demo>).
 
-All paths are relative, so the app works under a project sub-path. That was
-tested locally under `/talentscout/`; GitHub Pages itself has not been tested
-yet. Adding `?demo` to the address loads the sample resumes automatically.
+All paths are relative, so the app works under a project sub-path. The live
+site above was checked in a browser on 24 November 2026: upload (PDF, DOCX,
+TXT), scoring, reports, CSV export, rules save and load, and the language
+switch all worked, and every network request went to the site's own static
+files. Adding `?demo` to the address loads the sample resumes automatically.
 
 ## Limitations
 

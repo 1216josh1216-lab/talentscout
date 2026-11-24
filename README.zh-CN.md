@@ -13,7 +13,9 @@
 
 ## 使用方法
 
-需要 [Node.js](https://nodejs.org) 22 或更高版本：
+**在线演示：** <https://1216josh1216-lab.github.io/talentscout/?demo>
+
+本地运行需要 [Node.js](https://nodejs.org) 22 或更高版本：
 
 ```bash
 npm start
