@@ -16,13 +16,12 @@ no upload and no AI model: the score is arithmetic you can check by hand.
 
 ## Try it
 
-**Live demo:** `https://YOUR-USERNAME.github.io/talentscout/?demo`
-<!-- TODO: replace with the real GitHub Pages address after the first deploy -->
+**Live demo:** <https://1216josh1216-lab.github.io/talentscout/?demo>
 
 **Locally** (needs [Node.js](https://nodejs.org) 22 or newer, no install step for the app itself):
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/talentscout.git
+git clone https://github.com/1216josh1216-lab/talentscout.git
 cd talentscout
 npm start
 ```
@@ -193,7 +192,8 @@ Tests use Node's built-in test runner. There are no other dependencies.
 
 1. Push the repository to GitHub.
 2. **Settings → Pages → Build and deployment**: source "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Wait for the first deployment, then open `https://YOUR-USERNAME.github.io/REPO-NAME/?demo`.
+3. Wait for the first deployment, then open `https://<username>.github.io/<repository>/?demo`
+   (for this repository: <https://1216josh1216-lab.github.io/talentscout/?demo>).
 
 All paths are relative, so the app works under a project sub-path. That was
 tested locally under `/talentscout/`; GitHub Pages itself has not been tested
